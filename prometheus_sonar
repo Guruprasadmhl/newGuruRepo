@@ -1,0 +1,4 @@
+ - job_name: 'sonarqube'
+    metrics_path: '/api/prometheus/metrics'
+    static_configs:
+      - targets: ['54.190.168.185:30025']
